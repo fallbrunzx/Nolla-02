@@ -47,6 +47,7 @@ header a {
 
 header h1 {
     margin: auto;
+    padding-top: 20px;
     font-weight: normal;
     font-size: 54px;
 }
@@ -75,8 +76,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    margin: 30px;
+    padding: 30px;
     color: #000;
+    transition: 0.8s;
+}
+
+nav > a:hover {
+    box-shadow: 1px 3px 4px #132B0F;
 }
 
             /* SLIDER */
