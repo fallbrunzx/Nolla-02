@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
 @font-face {
     font-family: 'theseasons'; 
     src: url('../Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
@@ -21,7 +23,7 @@
     color: white;
     font-size: 22px;
     font-weight: bold;
-    font-family: var(--Font-nola);
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
