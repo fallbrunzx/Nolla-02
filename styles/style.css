@@ -45,6 +45,7 @@ header a {
 
 header h1 {
     margin: auto;
+    font-weight: normal;
     font-size: 54px;
 }
 
