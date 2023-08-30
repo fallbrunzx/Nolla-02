@@ -52,7 +52,7 @@ header h1 {
 }
 
 header input {
-    border-radius: 7px; 
+    border-radius: 5px; 
 }
 
 header svg {
@@ -155,4 +155,59 @@ nav a {
             #radio-3:checked ~ .primeiro {
                 margin-left: -50%;
             }
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    color: #132B0F;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+
+.information-content{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-content > h3 {
+    font-size: 22px;
+}
+
+.information-content > p {
+    font-size: 14px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+
+.product-container {
+    background-color: #132B0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 238px;
+    height: 302px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .whatsapp-button img {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
             
