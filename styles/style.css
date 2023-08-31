@@ -199,11 +199,20 @@ nav > a:hover {
     margin-bottom: 35px;
 }
 
+.product-container > img {
+    width: 238px;
+    height: 186px;
+}
+
+.product-container h4 {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
 .product-container {
     background-color: #132B0F;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 238px;
     height: 302px;
@@ -217,7 +226,7 @@ nav > a:hover {
   }
   
   .whatsapp-button img {
-    width: 65px;
+    width: 58px;
     height: auto;
     border-radius: 50%;
   }
