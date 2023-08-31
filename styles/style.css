@@ -45,6 +45,10 @@ header a {
     color: #000;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 header h1 {
     margin: auto;
     padding-top: 20px;
@@ -78,11 +82,13 @@ nav a {
     text-decoration: none;
     padding: 30px;
     color: #000;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 nav > a:hover {
     box-shadow: 1px 3px 4px #132B0F;
+    background-color: #14421B;
+    color: white;
 }
 
             /* SLIDER */
