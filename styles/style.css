@@ -199,9 +199,31 @@ nav > a:hover {
     margin-bottom: 35px;
 }
 
+.product-container:hover > p {
+    display: none;
+} 
+
+.product-container > button {
+    display: none;
+    padding: 10px;
+    background-color: #28591F;
+    border-style: none;
+    color: white;
+    font-family: var(--Font-nola);
+    font-weight: bold;
+}
+
+.product-container:hover > button {
+    display: inline-block;
+}
+
 .product-container > img {
     width: 238px;
-    height: 186px;
+    height: 220px;
+}
+
+.product-container:hover > img {
+    content: url(../img/Foto-mostruario-2.jpeg);
 }
 
 .product-container h4 {
