@@ -42,7 +42,7 @@ header  {
 header a {
     text-decoration: none;
     padding: 30px;
-    color: #000;
+    color: #132B0F;
 }
 
 header a:hover {
@@ -52,6 +52,7 @@ header a:hover {
 header h1 {
     margin: auto;
     padding-top: 20px;
+    color: #132B0F;
     font-weight: normal;
     font-size: 54px;
 }
@@ -81,7 +82,7 @@ nav {
 nav a {
     text-decoration: none;
     padding: 30px;
-    color: #000;
+    color: #14421B;
     transition: 0.5s;
 }
 
@@ -215,6 +216,7 @@ nav > a:hover {
 
 .product-container:hover > button {
     display: inline-block;
+    cursor: pointer;
 }
 
 .product-container > img {
